@@ -17,7 +17,7 @@ every commit, bug and lesson logged in public at **[backend-journey](https://git
 
 ## About
 
-I'm a computer science student focused on **backend engineering**.
+I'm a Information Technology student focused on **backend engineering**.
 
 My main track is **Java + Spring Boot**, with **Go** as a second language and **Node.js**
 as what I actually ship with today. I care about the parts that are hard to fake:
@@ -50,15 +50,6 @@ engineering internship — documenting the process in public, not just the resul
 - Working through the **48-week backend roadmap** — Java fundamentals → Spring Boot → deployment
 - Writing up every mistake in [KESALAHAN.md](https://github.com/ysnalqdr/backend-journey/blob/main/KESALAHAN.md)
 - Target: **backend engineering internship, October 2027**
-
-<!--
-  ── STATS CARD (dimatikan sengaja) ──────────────────────────────────────────
-  Akun ini baru 42 contribution dan 0 star — kartu statistik justru menonjolkan
-  kekosongan, bukan prestasi. Buka komentar di bawah kalau kontribusimu sudah
-  lewat ~150.
-
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=ysnalqdr&theme=github-dark&hide_border=true&border_radius=6" alt="Streak" />
--->
 
 ---
 
