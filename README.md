@@ -2,13 +2,15 @@
 
 # Muhammad Yasin Al'Qadri
 
-**Backend engineer in training** · Java · Spring · Go
+Information Technology student, learning backend engineering.
 
-Building backend fundamentals properly, one week at a time —
-every commit, bug and lesson logged in public at **[backend-journey](https://github.com/ysnalqdr/backend-journey)**.
+I build small services and write down what I learn. Currently working toward a
+backend internship in October 2027.
 
-<a href="mailto:baarnoob@gmail.com"><img src="https://img.shields.io/badge/Email-baarnoob%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://www.linkedin.com/in/USERNAME"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<img src="https://skillicons.dev/icons?i=java,spring,go,js,nodejs,express,laravel,mysql,postgres,docker,git,linux&theme=dark" alt="Java, Spring, Go, JavaScript, Node.js, Express, Laravel, MySQL, PostgreSQL, Docker, Git, Linux" />
+
+<br />
+
 <a href="https://github.com/ysnalqdr/backend-journey"><img src="https://img.shields.io/badge/48--week_roadmap-in_progress-2ea44f?style=flat-square" alt="Roadmap"></a>
 
 </div>
@@ -17,42 +19,60 @@ every commit, bug and lesson logged in public at **[backend-journey](https://git
 
 ## About
 
-I'm a Information Technology student focused on **backend engineering**.
+I'm a Information Technology student from Indonesia. I like the backend side of things —
+APIs, databases, authentication, and payments.
 
-My main track is **Java + Spring Boot**, with **Go** as a second language and **Node.js**
-as what I actually ship with today. I care about the parts that are hard to fake:
-transactional correctness, idempotent webhooks, auth boundaries, and schema design.
+Right now my main focus is **Java and Spring Boot**. I also use **Node.js** and
+**Laravel**, and those are what I've built my projects with so far. I'm still early
+in this, so I try to keep the work small and finish it properly rather than start
+many things at once.
 
-Right now I'm working through a self-designed **48-week roadmap** toward a backend
-engineering internship — documenting the process in public, not just the result.
+Most of what I know came from building and breaking things. When something doesn't
+work, I read the error, check the docs, and write down what went wrong so I don't
+repeat it.
 
-## Stack
+## Projects
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,go,js,nodejs,express,laravel,mysql,postgres,redis,docker,git,linux&theme=dark" alt="Java, Spring, Go, JavaScript, Node.js, Express, Laravel, MySQL, PostgreSQL, Redis, Docker, Git, Linux" />
-</div>
+### SoundWave — concert ticketing
+A ticketing app for concerts. Users pick a seat, pay through a payment gateway, and
+get a QR ticket that can be checked offline.
 
-<br />
+- Backend in Node.js and Express, data in Firestore
+- Payments through Midtrans, with webhook signatures verified server-side
+- Each ticket is signed with Ed25519, so it can't be faked
+- Client app in Flutter
 
-`Java` · `Spring Boot` · `Go` · `Node.js / Express` · `Laravel` · `MySQL` · `PostgreSQL` · `Redis` · `Docker` · `Git` · `Linux`
+The part that took the longest was seat booking. Two people can click the same seat
+at almost the same moment, and only one of them should get it. I used an atomic
+transaction so the second request fails cleanly instead of double-booking.
 
-## Selected work
+[backend](https://github.com/ysnalqdr/soundwave-backend) · [client](https://github.com/ysnalqdr/SoundWave)
 
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| **[SoundWave](https://github.com/ysnalqdr/SoundWave)** | Concert ticketing app — atomic seat checkout, offline-verifiable QR tickets, full payment flow | `Flutter` `Riverpod` `Express` `Firestore` |
-| **[soundwave-backend](https://github.com/ysnalqdr/soundwave-backend)** | The API behind it — atomic checkout, SHA512 webhook verification, Ed25519 ticket signing, refunds | `Node.js` `Express` `Firebase Admin` `Midtrans` |
-| **[SiDamkar](https://github.com/ysnalqdr/SiDamkar)** | Fire-hazard early warning system — panic button, guest access, role-based dashboards | `Laravel 10` `MySQL` `Blade` |
-| **[ecommerce-app](https://github.com/ysnalqdr/ecommerce-app)** | Multi-role marketplace (user / seller / admin) with cart, checkout and payment integration | `Laravel 12` `Tailwind` `MySQL` |
+### SiDamkar — fire reporting
+A web app for reporting fires and coordinating a response. It has a panic button for
+emergencies, guest access for people who don't have an account, and separate
+dashboards for citizens, officers, and admins.
+
+- Laravel 10, MySQL, Blade
+
+[repository](https://github.com/ysnalqdr/SiDamkar)
+
+### E-commerce platform
+An online store with three roles: buyer, seller, and admin. Sellers manage products,
+buyers check out with a cart, and payments go through Midtrans.
+
+- Laravel 12, MySQL, Tailwind CSS
+
+[repository](https://github.com/ysnalqdr/ecommerce-app)
 
 ## Currently
 
-- Working through the **48-week backend roadmap** — Java fundamentals → Spring Boot → deployment
-- Writing up every mistake in [KESALAHAN.md](https://github.com/ysnalqdr/backend-journey/blob/main/KESALAHAN.md)
-- Target: **backend engineering internship, October 2027**
+- Following a 48-week plan: Java fundamentals → Spring Boot → deployment
+- Writing weekly notes and mistakes in [backend-journey](https://github.com/ysnalqdr/backend-journey)
+- Target: backend internship, October 2027
 
 ---
 
 <div align="center">
-  <sub>Open to backend internship opportunities · <a href="mailto:baarnoob@gmail.com">baarnoob@gmail.com</a></sub>
+  <sub>Open to internship opportunities</sub>
 </div>
