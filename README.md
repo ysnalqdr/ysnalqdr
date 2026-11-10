@@ -33,7 +33,7 @@ repeat it.
 
 ## Projects
 
-### SoundWave — concert ticketing
+### SoundWave concert ticketing
 A ticketing app for concerts. Users pick a seat, pay through a payment gateway, and
 get a QR ticket that can be checked offline.
 
@@ -48,7 +48,7 @@ transaction so the second request fails cleanly instead of double-booking.
 
 [backend](https://github.com/ysnalqdr/soundwave-backend) · [client](https://github.com/ysnalqdr/SoundWave)
 
-### SiDamkar — fire reporting
+### SiDamkar fire reporting
 A web app for reporting fires and coordinating a response. It has a panic button for
 emergencies, guest access for people who don't have an account, and separate
 dashboards for citizens, officers, and admins.
