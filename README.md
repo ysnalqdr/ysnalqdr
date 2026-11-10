@@ -19,7 +19,7 @@ backend internship in October 2027.
 
 ## About
 
-I'm a Information Technology student from Indonesia. I like the backend side of things —
+I'm a Information Technology student from Indonesia. I like the backend side of things
 APIs, databases, authentication, and payments.
 
 Right now my main focus is **Java and Spring Boot**. I also use **Node.js** and
