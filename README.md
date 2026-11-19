@@ -1,7 +1,7 @@
 # Muhammad Yasin Al'Qadri
 
-Information Technology student at Universitas XXX, focused on backend engineering.
-Looking for a backend internship in October 2027.
+Information Technology student at Bina Sarana Informatika Universitas, focused on backend engineering.
+Looking for a backend internship in 2027.
 
 I build small services and write down what I learn. Right now my main focus is Java
 and Spring Boot; the project below was built with Node.js, which is what I had before
@@ -24,7 +24,7 @@ needs the documentation open while I work.
 
 ## Featured project
 
-### SoundWave — concert ticketing
+### SoundWave concert ticketing
 A ticketing system for concerts. Users pick a seat, pay through a payment gateway,
 and get a QR ticket that can be checked offline.
 
@@ -42,7 +42,7 @@ transaction so the second request fails cleanly instead of double-booking.
 
 ## Education
 
-**Universitas XXX** — S1 Teknologi Informasi, 2023 – present
+**Universitas Bina Sarana Informatika** — S1 Teknologi Informasi, 2024 – present
 
 Relevant coursework: Database Systems, Data Structures and Algorithms, Computer
 Networks, Operating Systems, Web Programming.
