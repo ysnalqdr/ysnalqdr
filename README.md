@@ -1,6 +1,6 @@
 # Muhammad Yasin Al'Qadri
 
-Information Technology student at Bina Sarana Informatika Universitas, focused on backend engineering.
+Information Technology student at Bina Sarana Informatika University, focused on backend engineering.
 Looking for a backend internship in 2027.
 
 I build small services and write down what I learn. Right now my main focus is Java
