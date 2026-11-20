@@ -38,7 +38,7 @@ The part that took the longest was seat booking. Two people can click the same s
 at almost the same moment, and only one of them should get it. I used an atomic
 transaction so the second request fails cleanly instead of double-booking.
 
-[backend](https://github.com/ysnalqdr/soundwave-backend) · [client](https://github.com/ysnalqdr/SoundWave)
+[backend](https://github.com/ysnalqdr/soundwave-backend) – [client](https://github.com/ysnalqdr/SoundWave)
 
 ## Education
 
