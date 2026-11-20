@@ -42,7 +42,7 @@ transaction so the second request fails cleanly instead of double-booking.
 
 ## Education
 
-**Universitas Bina Sarana Informatika** — S1 Teknologi Informasi, 2024 – present
+**Universitas Bina Sarana Informatika**  S1 Teknologi Informasi, 2024 – present
 
 Relevant coursework: Database Systems, Data Structures and Algorithms, Computer
 Networks, Operating Systems, Web Programming.
